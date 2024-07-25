@@ -39,6 +39,7 @@ int main()
      Energy_calc();
      cout << 0  << "    " <<q[0] << "  "<< p[0] << "  " << Epot << "   "<<Etot << endl;
 
+    //time loop
      for(istep=1; istep=maxstep; istep++){
 	Velocity_Verlet();
 	Energy_calc();
